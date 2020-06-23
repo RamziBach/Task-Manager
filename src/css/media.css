@@ -1,0 +1,29 @@
+@media (max-width: 640px) {
+  .form-input {
+    width: 30em
+  }
+
+  .list {
+    width: 30em;
+  }
+}
+
+@media (max-width: 540px) {
+  .form-input {
+    width: 25em
+  }
+
+  .list {
+    width: 25em;
+  }
+}
+
+@media (max-width: 450px) {
+  .form-input {
+    width: 20em;
+  }
+
+  .list {
+    width: 20em;
+  }
+}

@@ -1,0 +1,88 @@
+@import './DarkMode.css';
+@import './TodoApp.css';
+@import './Header.css';
+@import './TodoForm.css';
+@import './TodoList.css';
+@import './media.css';
+
+:root {
+  --clr-light: #BCBCBC;
+  --clr-dark: #212121;
+  --clr-accent: #f48fb1;
+
+  --fs-svg: 10rem;
+  --fs-alt: 2rem;
+  --fs-h1: 4rem;
+  --fs-btn: 1.2rem;
+  --fs-body: 1rem;
+}
+
+@media (max-width: 1920px) {
+  :root {
+    --fs-svg: 8rem;
+    --fs-alt: 1.8rem;
+    --fs-h1: 3.5rem;
+    --fs-btn: 1rem;
+  }
+}
+
+@media (max-width: 450px) {
+  :root {
+    --fs-svg: 5rem;
+    --fs-alt: 1.5rem;
+    --fs-h1: 3rem;
+    --fs-btn: .8rem;
+  }
+}
+
+@media (max-width: 340px) {
+  :root {
+    --fs-svg: 4rem;
+    --fs-alt: 1.3rem;
+    --fs-h1: 2.5rem;
+    --fs-btn: .7rem;
+  }
+}
+
+*,
+*::before,
+*::after { box-sizing: border-box; }
+
+* {
+  font-family: 'Roboto', sans-serif;
+  word-spacing: 2px;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  letter-spacing: 1px;
+  background-color: var(--clr-dark);
+  color: var(--clr-light);
+  transition: all .3s;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+}
+
+@media (max-width: 729px) {
+  .App {
+    width: 90%;
+  }
+}
+
+@media (max-width: 450px) {
+  .App {
+    width: 95%;
+  }
+}

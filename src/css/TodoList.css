@@ -1,0 +1,22 @@
+.TodoList-container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.TodoList {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.list {
+  margin-top: 3em;
+  font-size: var(--fs-btn);
+  font-weight: 400;
+  display: flex;
+  justify-content: space-between;
+  width: 35em;
+}

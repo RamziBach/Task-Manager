@@ -1,0 +1,7 @@
+.Header { text-align: center; }
+
+.title {
+  font-size: var(--fs-h1);
+  color: var(--clr-light);
+  transition: all .3s;
+}
