@@ -6,7 +6,7 @@
 @import './media.css';
 
 :root {
-  --clr-light: #BCBCBC;
+  --clr-light: #bcbcbc;
   --clr-dark: #212121;
   --clr-accent: #f48fb1;
 
@@ -31,7 +31,7 @@
     --fs-svg: 5rem;
     --fs-alt: 1.5rem;
     --fs-h1: 3rem;
-    --fs-btn: .8rem;
+    --fs-btn: 0.8rem;
   }
 }
 
@@ -40,13 +40,15 @@
     --fs-svg: 4rem;
     --fs-alt: 1.3rem;
     --fs-h1: 2.5rem;
-    --fs-btn: .7rem;
+    --fs-btn: 0.7rem;
   }
 }
 
 *,
 *::before,
-*::after { box-sizing: border-box; }
+*::after {
+  box-sizing: border-box;
+}
 
 * {
   font-family: 'Roboto', sans-serif;
@@ -65,7 +67,7 @@ body {
   letter-spacing: 1px;
   background-color: var(--clr-dark);
   color: var(--clr-light);
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
 .App {
